@@ -27,6 +27,6 @@ while count < totalChances:
     else:
         print("You Guessed too high!")
 
-if not flag:
-    print("\nThe number is %d" % x)
-    print("\tBetter Luck Next time!")   
+if flag == False:
+    print("\nThe number is: ", x)
+    print("Better Luck Next time!")   
